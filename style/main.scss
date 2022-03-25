@@ -1,0 +1,9 @@
+@import '~vuetify/src/styles/settings/_variables';
+@import 'variables.scss';
+@import 'base.scss';
+
+.container {
+  @media (min-width: 1264px) {
+    max-width: 1264px !important;
+  }
+}
